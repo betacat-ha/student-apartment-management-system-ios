@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2944BE6A2C271DC000BE5130 /* NFCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944BE692C271DC000BE5130 /* NFCDelegate.swift */; };
+		2944BE6D2C27230900BE5130 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944BE6C2C27230900BE5130 /* ProfileView.swift */; };
+		2944BE6F2C2799C300BE5130 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944BE6E2C2799C300BE5130 /* LoginView.swift */; };
+		298CB4C52C29CEC30054A747 /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298CB4C42C29CEC30054A747 /* HTTP.swift */; };
+		298CB4C72C29CF2E0054A747 /* AppStoreKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298CB4C62C29CF2E0054A747 /* AppStoreKeys.swift */; };
+		298CB4CA2C2A324A0054A747 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298CB4C92C2A324A0054A747 /* AppConfig.swift */; };
+		298CB4CD2C2A34760054A747 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 298CB4CC2C2A34760054A747 /* CombineMoya */; };
+		298CB4CF2C2A34760054A747 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 298CB4CE2C2A34760054A747 /* Moya */; };
+		298CB4D12C2A34760054A747 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 298CB4D02C2A34760054A747 /* ReactiveMoya */; };
+		298CB4D32C2A34760054A747 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 298CB4D22C2A34760054A747 /* RxMoya */; };
+		298CB4D62C2A378E0054A747 /* HandyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 298CB4D52C2A378E0054A747 /* HandyJSON */; };
+		298CB4D92C2A436C0054A747 /* AccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298CB4D82C2A436C0054A747 /* AccountController.swift */; };
+		298CB4DC2C2A43810054A747 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298CB4DB2C2A43810054A747 /* Account.swift */; };
+		298CB4DE2C2A8AB40054A747 /* ServerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298CB4DD2C2A8AB40054A747 /* ServerResult.swift */; };
+		29FE55B92C240FAF00FE8259 /* student_apartment_management_system_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FE55B82C240FAF00FE8259 /* student_apartment_management_system_iosApp.swift */; };
+		29FE55BB2C240FAF00FE8259 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FE55BA2C240FAF00FE8259 /* ContentView.swift */; };
+		29FE55BD2C240FB000FE8259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FE55BC2C240FB000FE8259 /* Assets.xcassets */; };
+		29FE55C12C240FB000FE8259 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FE55C02C240FB000FE8259 /* Preview Assets.xcassets */; };
+		29FE55CB2C240FB100FE8259 /* student_apartment_management_system_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FE55CA2C240FB100FE8259 /* student_apartment_management_system_iosTests.swift */; };
+		29FE55D52C240FB100FE8259 /* student_apartment_management_system_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FE55D42C240FB100FE8259 /* student_apartment_management_system_iosUITests.swift */; };
+		29FE55D72C240FB100FE8259 /* student_apartment_management_system_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FE55D62C240FB100FE8259 /* student_apartment_management_system_iosUITestsLaunchTests.swift */; };
+		29FE55E52C24128400FE8259 /* MyApartmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FE55E42C24128400FE8259 /* MyApartmentView.swift */; };
+		29FE55E72C2489BE00FE8259 /* OfficialWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FE55E62C2489BE00FE8259 /* OfficialWebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29FE55C72C240FB100FE8259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29FE55AD2C240FAF00FE8259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29FE55B42C240FAF00FE8259;
+			remoteInfo = "student-apartment-management-system-ios";
+		};
+		29FE55D12C240FB100FE8259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29FE55AD2C240FAF00FE8259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29FE55B42C240FAF00FE8259;
+			remoteInfo = "student-apartment-management-system-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2944BE682C271CB100BE5130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2944BE692C271DC000BE5130 /* NFCDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCDelegate.swift; sourceTree = "<group>"; };
+		2944BE6C2C27230900BE5130 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2944BE6E2C2799C300BE5130 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		298CB4C42C29CEC30054A747 /* HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
+		298CB4C62C29CF2E0054A747 /* AppStoreKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreKeys.swift; sourceTree = "<group>"; };
+		298CB4C92C2A324A0054A747 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		298CB4D82C2A436C0054A747 /* AccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
+		298CB4DB2C2A43810054A747 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		298CB4DD2C2A8AB40054A747 /* ServerResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResult.swift; sourceTree = "<group>"; };
+		29FE55B52C240FAF00FE8259 /* student-apartment-management-system-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "student-apartment-management-system-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FE55B82C240FAF00FE8259 /* student_apartment_management_system_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = student_apartment_management_system_iosApp.swift; sourceTree = "<group>"; };
+		29FE55BA2C240FAF00FE8259 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		29FE55BC2C240FB000FE8259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29FE55BE2C240FB000FE8259 /* student_apartment_management_system_ios.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = student_apartment_management_system_ios.entitlements; sourceTree = "<group>"; };
+		29FE55C02C240FB000FE8259 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		29FE55C62C240FB100FE8259 /* student-apartment-management-system-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "student-apartment-management-system-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FE55CA2C240FB100FE8259 /* student_apartment_management_system_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = student_apartment_management_system_iosTests.swift; sourceTree = "<group>"; };
+		29FE55D02C240FB100FE8259 /* student-apartment-management-system-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "student-apartment-management-system-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29FE55D42C240FB100FE8259 /* student_apartment_management_system_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = student_apartment_management_system_iosUITests.swift; sourceTree = "<group>"; };
+		29FE55D62C240FB100FE8259 /* student_apartment_management_system_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = student_apartment_management_system_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		29FE55E42C24128400FE8259 /* MyApartmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApartmentView.swift; sourceTree = "<group>"; };
+		29FE55E62C2489BE00FE8259 /* OfficialWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficialWebView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29FE55B22C240FAF00FE8259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298CB4CF2C2A34760054A747 /* Moya in Frameworks */,
+				298CB4CD2C2A34760054A747 /* CombineMoya in Frameworks */,
+				298CB4D32C2A34760054A747 /* RxMoya in Frameworks */,
+				298CB4D62C2A378E0054A747 /* HandyJSON in Frameworks */,
+				298CB4D12C2A34760054A747 /* ReactiveMoya in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FE55C32C240FB100FE8259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FE55CD2C240FB100FE8259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2944BE6B2C271DCC00BE5130 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2944BE692C271DC000BE5130 /* NFCDelegate.swift */,
+				298CB4C42C29CEC30054A747 /* HTTP.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		298CB4C82C29D1660054A747 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				298CB4C62C29CF2E0054A747 /* AppStoreKeys.swift */,
+				298CB4C92C2A324A0054A747 /* AppConfig.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		298CB4D72C2A3CB40054A747 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				298CB4D82C2A436C0054A747 /* AccountController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		298CB4DA2C2A43710054A747 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				298CB4DB2C2A43810054A747 /* Account.swift */,
+				298CB4DD2C2A8AB40054A747 /* ServerResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29FE55AC2C240FAF00FE8259 = {
+			isa = PBXGroup;
+			children = (
+				29FE55B72C240FAF00FE8259 /* student-apartment-management-system-ios */,
+				29FE55C92C240FB100FE8259 /* student-apartment-management-system-iosTests */,
+				29FE55D32C240FB100FE8259 /* student-apartment-management-system-iosUITests */,
+				29FE55B62C240FAF00FE8259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29FE55B62C240FAF00FE8259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29FE55B52C240FAF00FE8259 /* student-apartment-management-system-ios.app */,
+				29FE55C62C240FB100FE8259 /* student-apartment-management-system-iosTests.xctest */,
+				29FE55D02C240FB100FE8259 /* student-apartment-management-system-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29FE55B72C240FAF00FE8259 /* student-apartment-management-system-ios */ = {
+			isa = PBXGroup;
+			children = (
+				298CB4DA2C2A43710054A747 /* Model */,
+				298CB4D72C2A3CB40054A747 /* Controller */,
+				298CB4C82C29D1660054A747 /* Constants */,
+				2944BE6B2C271DCC00BE5130 /* Utils */,
+				2944BE682C271CB100BE5130 /* Info.plist */,
+				29FE55E32C24125B00FE8259 /* View */,
+				29FE55B82C240FAF00FE8259 /* student_apartment_management_system_iosApp.swift */,
+				29FE55BC2C240FB000FE8259 /* Assets.xcassets */,
+				29FE55BE2C240FB000FE8259 /* student_apartment_management_system_ios.entitlements */,
+				29FE55BF2C240FB000FE8259 /* Preview Content */,
+			);
+			path = "student-apartment-management-system-ios";
+			sourceTree = "<group>";
+		};
+		29FE55BF2C240FB000FE8259 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				29FE55C02C240FB000FE8259 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		29FE55C92C240FB100FE8259 /* student-apartment-management-system-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				29FE55CA2C240FB100FE8259 /* student_apartment_management_system_iosTests.swift */,
+			);
+			path = "student-apartment-management-system-iosTests";
+			sourceTree = "<group>";
+		};
+		29FE55D32C240FB100FE8259 /* student-apartment-management-system-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29FE55D42C240FB100FE8259 /* student_apartment_management_system_iosUITests.swift */,
+				29FE55D62C240FB100FE8259 /* student_apartment_management_system_iosUITestsLaunchTests.swift */,
+			);
+			path = "student-apartment-management-system-iosUITests";
+			sourceTree = "<group>";
+		};
+		29FE55E32C24125B00FE8259 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29FE55BA2C240FAF00FE8259 /* ContentView.swift */,
+				29FE55E42C24128400FE8259 /* MyApartmentView.swift */,
+				29FE55E62C2489BE00FE8259 /* OfficialWebView.swift */,
+				2944BE6C2C27230900BE5130 /* ProfileView.swift */,
+				2944BE6E2C2799C300BE5130 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29FE55B42C240FAF00FE8259 /* student-apartment-management-system-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29FE55DA2C240FB100FE8259 /* Build configuration list for PBXNativeTarget "student-apartment-management-system-ios" */;
+			buildPhases = (
+				29FE55B12C240FAF00FE8259 /* Sources */,
+				29FE55B22C240FAF00FE8259 /* Frameworks */,
+				29FE55B32C240FAF00FE8259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "student-apartment-management-system-ios";
+			packageProductDependencies = (
+				298CB4CC2C2A34760054A747 /* CombineMoya */,
+				298CB4CE2C2A34760054A747 /* Moya */,
+				298CB4D02C2A34760054A747 /* ReactiveMoya */,
+				298CB4D22C2A34760054A747 /* RxMoya */,
+				298CB4D52C2A378E0054A747 /* HandyJSON */,
+			);
+			productName = "student-apartment-management-system-ios";
+			productReference = 29FE55B52C240FAF00FE8259 /* student-apartment-management-system-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29FE55C52C240FB100FE8259 /* student-apartment-management-system-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29FE55DD2C240FB100FE8259 /* Build configuration list for PBXNativeTarget "student-apartment-management-system-iosTests" */;
+			buildPhases = (
+				29FE55C22C240FB100FE8259 /* Sources */,
+				29FE55C32C240FB100FE8259 /* Frameworks */,
+				29FE55C42C240FB100FE8259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29FE55C82C240FB100FE8259 /* PBXTargetDependency */,
+			);
+			name = "student-apartment-management-system-iosTests";
+			productName = "student-apartment-management-system-iosTests";
+			productReference = 29FE55C62C240FB100FE8259 /* student-apartment-management-system-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29FE55CF2C240FB100FE8259 /* student-apartment-management-system-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29FE55E02C240FB100FE8259 /* Build configuration list for PBXNativeTarget "student-apartment-management-system-iosUITests" */;
+			buildPhases = (
+				29FE55CC2C240FB100FE8259 /* Sources */,
+				29FE55CD2C240FB100FE8259 /* Frameworks */,
+				29FE55CE2C240FB100FE8259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29FE55D22C240FB100FE8259 /* PBXTargetDependency */,
+			);
+			name = "student-apartment-management-system-iosUITests";
+			productName = "student-apartment-management-system-iosUITests";
+			productReference = 29FE55D02C240FB100FE8259 /* student-apartment-management-system-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29FE55AD2C240FAF00FE8259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					29FE55B42C240FAF00FE8259 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					29FE55C52C240FB100FE8259 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 29FE55B42C240FAF00FE8259;
+					};
+					29FE55CF2C240FB100FE8259 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 29FE55B42C240FAF00FE8259;
+					};
+				};
+			};
+			buildConfigurationList = 29FE55B02C240FAF00FE8259 /* Build configuration list for PBXProject "student-apartment-management-system-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29FE55AC2C240FAF00FE8259;
+			packageReferences = (
+				298CB4CB2C2A34760054A747 /* XCRemoteSwiftPackageReference "Moya" */,
+				298CB4D42C2A378E0054A747 /* XCRemoteSwiftPackageReference "HandyJSON" */,
+			);
+			productRefGroup = 29FE55B62C240FAF00FE8259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29FE55B42C240FAF00FE8259 /* student-apartment-management-system-ios */,
+				29FE55C52C240FB100FE8259 /* student-apartment-management-system-iosTests */,
+				29FE55CF2C240FB100FE8259 /* student-apartment-management-system-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29FE55B32C240FAF00FE8259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FE55C12C240FB000FE8259 /* Preview Assets.xcassets in Resources */,
+				29FE55BD2C240FB000FE8259 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FE55C42C240FB100FE8259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FE55CE2C240FB100FE8259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29FE55B12C240FAF00FE8259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FE55BB2C240FAF00FE8259 /* ContentView.swift in Sources */,
+				298CB4DE2C2A8AB40054A747 /* ServerResult.swift in Sources */,
+				2944BE6F2C2799C300BE5130 /* LoginView.swift in Sources */,
+				298CB4C72C29CF2E0054A747 /* AppStoreKeys.swift in Sources */,
+				29FE55B92C240FAF00FE8259 /* student_apartment_management_system_iosApp.swift in Sources */,
+				2944BE6A2C271DC000BE5130 /* NFCDelegate.swift in Sources */,
+				298CB4DC2C2A43810054A747 /* Account.swift in Sources */,
+				29FE55E72C2489BE00FE8259 /* OfficialWebView.swift in Sources */,
+				298CB4C52C29CEC30054A747 /* HTTP.swift in Sources */,
+				298CB4CA2C2A324A0054A747 /* AppConfig.swift in Sources */,
+				2944BE6D2C27230900BE5130 /* ProfileView.swift in Sources */,
+				298CB4D92C2A436C0054A747 /* AccountController.swift in Sources */,
+				29FE55E52C24128400FE8259 /* MyApartmentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FE55C22C240FB100FE8259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FE55CB2C240FB100FE8259 /* student_apartment_management_system_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29FE55CC2C240FB100FE8259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FE55D52C240FB100FE8259 /* student_apartment_management_system_iosUITests.swift in Sources */,
+				29FE55D72C240FB100FE8259 /* student_apartment_management_system_iosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29FE55C82C240FB100FE8259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29FE55B42C240FAF00FE8259 /* student-apartment-management-system-ios */;
+			targetProxy = 29FE55C72C240FB100FE8259 /* PBXContainerItemProxy */;
+		};
+		29FE55D22C240FB100FE8259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29FE55B42C240FAF00FE8259 /* student-apartment-management-system-ios */;
+			targetProxy = 29FE55D12C240FB100FE8259 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29FE55D82C240FB100FE8259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29FE55D92C240FB100FE8259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		29FE55DB2C240FB100FE8259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "student-apartment-management-system-ios/student_apartment_management_system_ios.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"student-apartment-management-system-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = SW7XKTR6CH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "student-apartment-management-system-ios/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "掌上广师大";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.betacat.palm-apartment.student-apartment-management-system-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29FE55DC2C240FB100FE8259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "student-apartment-management-system-ios/student_apartment_management_system_ios.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"student-apartment-management-system-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = SW7XKTR6CH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "student-apartment-management-system-ios/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "掌上广师大";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.betacat.palm-apartment.student-apartment-management-system-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		29FE55DE2C240FB100FE8259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SW7XKTR6CH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.betacat.palm-apartment.student-apartment-management-system-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/student-apartment-management-system-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/student-apartment-management-system-ios";
+			};
+			name = Debug;
+		};
+		29FE55DF2C240FB100FE8259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SW7XKTR6CH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.betacat.palm-apartment.student-apartment-management-system-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/student-apartment-management-system-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/student-apartment-management-system-ios";
+			};
+			name = Release;
+		};
+		29FE55E12C240FB100FE8259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SW7XKTR6CH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.betacat.palm-apartment.student-apartment-management-system-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "student-apartment-management-system-ios";
+			};
+			name = Debug;
+		};
+		29FE55E22C240FB100FE8259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SW7XKTR6CH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.betacat.palm-apartment.student-apartment-management-system-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "student-apartment-management-system-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29FE55B02C240FAF00FE8259 /* Build configuration list for PBXProject "student-apartment-management-system-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FE55D82C240FB100FE8259 /* Debug */,
+				29FE55D92C240FB100FE8259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29FE55DA2C240FB100FE8259 /* Build configuration list for PBXNativeTarget "student-apartment-management-system-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FE55DB2C240FB100FE8259 /* Debug */,
+				29FE55DC2C240FB100FE8259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29FE55DD2C240FB100FE8259 /* Build configuration list for PBXNativeTarget "student-apartment-management-system-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FE55DE2C240FB100FE8259 /* Debug */,
+				29FE55DF2C240FB100FE8259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29FE55E02C240FB100FE8259 /* Build configuration list for PBXNativeTarget "student-apartment-management-system-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29FE55E12C240FB100FE8259 /* Debug */,
+				29FE55E22C240FB100FE8259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		298CB4CB2C2A34760054A747 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		298CB4D42C2A378E0054A747 /* XCRemoteSwiftPackageReference "HandyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alibaba/HandyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		298CB4CC2C2A34760054A747 /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 298CB4CB2C2A34760054A747 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		298CB4CE2C2A34760054A747 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 298CB4CB2C2A34760054A747 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		298CB4D02C2A34760054A747 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 298CB4CB2C2A34760054A747 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		298CB4D22C2A34760054A747 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 298CB4CB2C2A34760054A747 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		298CB4D52C2A378E0054A747 /* HandyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 298CB4D42C2A378E0054A747 /* XCRemoteSwiftPackageReference "HandyJSON" */;
+			productName = HandyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 29FE55AD2C240FAF00FE8259 /* Project object */;
+}

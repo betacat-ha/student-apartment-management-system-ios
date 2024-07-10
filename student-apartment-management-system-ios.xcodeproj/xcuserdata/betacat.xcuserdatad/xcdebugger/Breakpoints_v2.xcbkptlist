@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "73B7F29E-2E55-4AB0-BAB9-4B633E1AE3B9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "572E07FE-2A89-4769-A8BA-A7F7CB949C73"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "student-apartment-management-system-ios/Utils/HTTP.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "JDRequestModule(path:method:param:success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "572E07FE-2A89-4769-A8BA-A7F7CB949C73 - ebb7505bfdfbc9d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static student_apartment_management_system_ios.JDRequestManager.JDRequestModule&lt;&#x3c4;_0_0 where &#x3c4;_0_0: HandyJSON.HandyJSON&gt;(path: Swift.String, method: Alamofire.HTTPMethod, param: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, success: (Swift.Bool, Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; (), failure: (Swift.Int, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "student-apartment-management-system-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/betacat/Code/Swift/student-apartment-management-system-ios/student-apartment-management-system-ios/Utils/HTTP.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "572E07FE-2A89-4769-A8BA-A7F7CB949C73 - ebb7505bfdfbc9d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static student_apartment_management_system_ios.JDRequestManager.JDRequestModule&lt;&#x3c4;_0_0 where &#x3c4;_0_0: HandyJSON.HandyJSON&gt;(path: Swift.String, method: Alamofire.HTTPMethod, param: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, success: (Swift.Bool, Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; (), failure: (Swift.Int, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "student-apartment-management-system-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/betacat/Code/Swift/student-apartment-management-system-ios/student-apartment-management-system-ios/Utils/HTTP.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67EB86DF-5E56-4A75-947A-B6FA20742C24"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "student-apartment-management-system-ios/Utils/HTTP.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "handleResult(result:success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55ED55C0-706A-4B6D-8A2F-FC4070F6F8DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "student-apartment-management-system-ios/Utils/HTTP.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "task"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "55ED55C0-706A-4B6D-8A2F-FC4070F6F8DF - a69c42ec9dfe9195"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "student_apartment_management_system_ios.JDAPI.task.getter : Moya.Task"
+                  moduleName = "student-apartment-management-system-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/betacat/Code/Swift/student-apartment-management-system-ios/student-apartment-management-system-ios/Utils/HTTP.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "55ED55C0-706A-4B6D-8A2F-FC4070F6F8DF - 9be7f818f5fda1b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Any, Any) -&gt; Any in student_apartment_management_system_ios.JDAPI.task.getter : Moya.Task"
+                  moduleName = "student-apartment-management-system-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/betacat/Code/Swift/student-apartment-management-system-ios/student-apartment-management-system-ios/Utils/HTTP.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "55ED55C0-706A-4B6D-8A2F-FC4070F6F8DF - a69c42ec9dfe9195"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "student_apartment_management_system_ios.JDAPI.task.getter : Moya.Task"
+                  moduleName = "student-apartment-management-system-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/betacat/Code/Swift/student-apartment-management-system-ios/student-apartment-management-system-ios/Utils/HTTP.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D6A0285-905E-415F-8D6A-AEF8F6FB7F45"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "student-apartment-management-system-ios/Controller/AccountController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "login(phone:password:done:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34C693C7-7770-47D0-A139-1D8D4DE8472C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "student-apartment-management-system-ios/Controller/AccountController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "login(phone:password:done:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26403F5A-28C1-4044-8A9C-15EA9F0AB410"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "student-apartment-management-system-ios/Controller/AccountController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "login(phone:password:done:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1A6B80D-D917-4E49-B898-72A0C30C0B13"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "student-apartment-management-system-ios/Utils/HTTP.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "handleResult(result:success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FAD16EA-8FD1-4488-BBB3-B75C026D50D9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "student-apartment-management-system-ios/Utils/HTTP.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "handleResult(result:success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4FAD16EA-8FD1-4488-BBB3-B75C026D50D9 - 3c615badeb278b7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static student_apartment_management_system_ios.JDRequestManager.handleResult&lt;&#x3c4;_0_0 where &#x3c4;_0_0: HandyJSON.HandyJSON&gt;(result: Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;, success: (Swift.Bool, Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; (), failure: (Swift.Int, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "student-apartment-management-system-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/betacat/Code/Swift/student-apartment-management-system-ios/student-apartment-management-system-ios/Utils/HTTP.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "173"
+                  endingLineNumber = "173"
+                  offsetFromSymbolStart = "984">
+               </Location>
+               <Location
+                  uuid = "4FAD16EA-8FD1-4488-BBB3-B75C026D50D9 - 3c615badeb278b7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static student_apartment_management_system_ios.JDRequestManager.handleResult&lt;&#x3c4;_0_0 where &#x3c4;_0_0: HandyJSON.HandyJSON&gt;(result: Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;, success: (Swift.Bool, Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; (), failure: (Swift.Int, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "student-apartment-management-system-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/betacat/Code/Swift/student-apartment-management-system-ios/student-apartment-management-system-ios/Utils/HTTP.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "173"
+                  endingLineNumber = "173"
+                  offsetFromSymbolStart = "1536">
+               </Location>
+               <Location
+                  uuid = "4FAD16EA-8FD1-4488-BBB3-B75C026D50D9 - 3c615badeb278b18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static student_apartment_management_system_ios.JDRequestManager.handleResult&lt;&#x3c4;_0_0 where &#x3c4;_0_0: HandyJSON.HandyJSON&gt;(result: Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;, success: (Swift.Bool, Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; (), failure: (Swift.Int, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "student-apartment-management-system-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/betacat/Code/Swift/student-apartment-management-system-ios/student-apartment-management-system-ios/Utils/HTTP.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "984">
+               </Location>
+               <Location
+                  uuid = "4FAD16EA-8FD1-4488-BBB3-B75C026D50D9 - 3c615badeb278b18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static student_apartment_management_system_ios.JDRequestManager.handleResult&lt;&#x3c4;_0_0 where &#x3c4;_0_0: HandyJSON.HandyJSON&gt;(result: Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;, success: (Swift.Bool, Swift.Optional&lt;&#x3c4;_0_0&gt;) -&gt; (), failure: (Swift.Int, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "student-apartment-management-system-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/betacat/Code/Swift/student-apartment-management-system-ios/student-apartment-management-system-ios/Utils/HTTP.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "172"
+                  endingLineNumber = "172"
+                  offsetFromSymbolStart = "1536">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "794C2AD6-02A5-4FD4-9BA8-AB8E5499F6B4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "student-apartment-management-system-ios/View/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "794C2AD6-02A5-4FD4-9BA8-AB8E5499F6B4 - fc165b2c2fea3e7e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.clipShape&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.Shape&gt;(_: &#x3c4;_1_0, style: SwiftUI.FillStyle) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.clipShape&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.Shape&gt;(_: &#x3c4;_1_0, style: SwiftUI.FillStyle) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.disabled(Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.Spacer)&gt; in student_apartment_management_system_ios.LoginView.body.getter : some"
+                  moduleName = "student-apartment-management-system-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/betacat/Code/Swift/student-apartment-management-system-ios/student-apartment-management-system-ios/View/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "452">
+               </Location>
+               <Location
+                  uuid = "794C2AD6-02A5-4FD4-9BA8-AB8E5499F6B4 - 4336279c458e97f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.frame(minWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxWidth: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, minHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, idealHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, maxHeight: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Spacer, &lt;&lt;opaque return type of SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.clipShape&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.Shape&gt;(_: &#x3c4;_1_0, style: SwiftUI.FillStyle) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.clipShape&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.Shape&gt;(_: &#x3c4;_1_0, style: SwiftUI.FillStyle) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.disabled(Swift.Bool) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, SwiftUI.Spacer)&gt; in student_apartment_management_system_ios.LoginView.body.getter : some"
+                  moduleName = "student-apartment-management-system-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/betacat/Code/Swift/student-apartment-management-system-ios/student-apartment-management-system-ios/View/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7574812-464E-4ECA-B09B-61B7C91BC07F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "student-apartment-management-system-ios/View/ProfileView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "profileView"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F54CAD4D-191A-425A-BDB8-B62B8F6E7E42"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "student-apartment-management-system-ios/Controller/AccountController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fecthProfile()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F54CAD4D-191A-425A-BDB8-B62B8F6E7E42 - 9aeda7403c413c15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "student_apartment_management_system_ios.AccountController.fecthProfile() -&gt; ()"
+                  moduleName = "student-apartment-management-system-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/betacat/Code/Swift/student-apartment-management-system-ios/student-apartment-management-system-ios/Controller/AccountController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "F54CAD4D-191A-425A-BDB8-B62B8F6E7E42 - beeacc021d2154e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;student_apartment_management_system_ios.Account&gt;) -&gt; () in student_apartment_management_system_ios.AccountController.fecthProfile() -&gt; ()"
+                  moduleName = "student-apartment-management-system-ios"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/betacat/Code/Swift/student-apartment-management-system-ios/student-apartment-management-system-ios/Controller/AccountController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBCB3807-7963-4EAE-98C0-CC82E70D7BAA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "student-apartment-management-system-ios/Utils/HTTP.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "JDRequestModule(path:method:param:success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
