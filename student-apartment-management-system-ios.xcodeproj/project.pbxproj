@@ -60,6 +60,7 @@
 		298CB4D82C2A436C0054A747 /* AccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountController.swift; sourceTree = "<group>"; };
 		298CB4DB2C2A43810054A747 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		298CB4DD2C2A8AB40054A747 /* ServerResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResult.swift; sourceTree = "<group>"; };
+		298FD0AB2C775F850092A671 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		29FE55B52C240FAF00FE8259 /* student-apartment-management-system-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "student-apartment-management-system-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FE55B82C240FAF00FE8259 /* student_apartment_management_system_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = student_apartment_management_system_iosApp.swift; sourceTree = "<group>"; };
 		29FE55BA2C240FAF00FE8259 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -140,9 +141,18 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		298FD0AC2C7760BB0092A671 /* img */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 		29FE55AC2C240FAF00FE8259 = {
 			isa = PBXGroup;
 			children = (
+				298FD0AC2C7760BB0092A671 /* img */,
+				298FD0AB2C775F850092A671 /* README.md */,
 				29FE55B72C240FAF00FE8259 /* student-apartment-management-system-ios */,
 				29FE55C92C240FB100FE8259 /* student-apartment-management-system-iosTests */,
 				29FE55D32C240FB100FE8259 /* student-apartment-management-system-iosUITests */,
