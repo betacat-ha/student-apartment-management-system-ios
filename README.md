@@ -3,7 +3,7 @@
 基于Swift、SwiftUI打造的学生公寓一站式管理服务平台iOS端，支持深色模式。
 
 <div align=center>
-  <img src="img/Light_Home.PNG" height="300"/><img src="img/Light_Login.PNG" height="300"/><img src="img/Light_Setting_Logout.PNG" height="300"/><img src="img/Light_NFC_Demo.PNG" height="300"/><img src="img/Light_Website.PNG" height="300"/><img src="img/Dark_Home.PNG" height="300"/><img src="img/Dark_Login.PNG" height="300"/><img src="img/Dark_Setting_Logout.PNG" height="300"/>
+  <img src="img/Light_Home.PNG" height="300"/><img src="img/Light_Login.PNG" height="300"/><img src="img/Light_Setting_Logout.PNG" height="300"/><img src="img/Light_Website.PNG" height="300"/><img src="img/Light_NFC_Demo.PNG" height="300"/><img src="img/Dark_Home.PNG" height="300"/><img src="img/Dark_Login.PNG" height="300"/><img src="img/Dark_Setting_Logout.PNG" height="300"/>
 </div>
 
 
